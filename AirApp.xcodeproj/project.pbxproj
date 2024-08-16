@@ -13,6 +13,18 @@
 		3D4414232C6F7D8D004EC9D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4414222C6F7D8D004EC9D9 /* Preview Assets.xcassets */; };
 		3D44142E2C6F7D8E004EC9D9 /* AirAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44142D2C6F7D8E004EC9D9 /* AirAppTests.swift */; };
 		3D4414392C6F7D8E004EC9D9 /* AirAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414382C6F7D8E004EC9D9 /* AirAppUITests.swift */; };
+		3D44144A2C6F88B2004EC9D9 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414492C6F88B2004EC9D9 /* NetWorkManager.swift */; };
+		3D44144B2C6F88B2004EC9D9 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414492C6F88B2004EC9D9 /* NetWorkManager.swift */; };
+		3D4414532C6F8989004EC9D9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414522C6F8989004EC9D9 /* Models.swift */; };
+		3D4414542C6F8989004EC9D9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414522C6F8989004EC9D9 /* Models.swift */; };
+		3D4414592C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414582C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift */; };
+		3D44145A2C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414582C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift */; };
+		3D4414622C6F8AC5004EC9D9 /* PopulationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414612C6F8AC5004EC9D9 /* PopulationViewModelTests.swift */; };
+		3D4414632C6F8AC5004EC9D9 /* PopulationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414612C6F8AC5004EC9D9 /* PopulationViewModelTests.swift */; };
+		3D4414682C6F8B37004EC9D9 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414672C6F8B37004EC9D9 /* MockNetworkManager.swift */; };
+		3D4414692C6F8B37004EC9D9 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414672C6F8B37004EC9D9 /* MockNetworkManager.swift */; };
+		3D4414722C6F8BF7004EC9D9 /* PopulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414712C6F8BF7004EC9D9 /* PopulationViewModel.swift */; };
+		3D4414732C6F8BF7004EC9D9 /* PopulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4414712C6F8BF7004EC9D9 /* PopulationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,12 @@
 		3D4414342C6F7D8E004EC9D9 /* AirAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4414382C6F7D8E004EC9D9 /* AirAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirAppUITests.swift; sourceTree = "<group>"; };
 		3D44143A2C6F7D8E004EC9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4414492C6F88B2004EC9D9 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		3D4414522C6F8989004EC9D9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3D4414582C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManagerTests.swift .swift"; sourceTree = "<group>"; };
+		3D4414612C6F8AC5004EC9D9 /* PopulationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationViewModelTests.swift; sourceTree = "<group>"; };
+		3D4414672C6F8B37004EC9D9 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		3D4414712C6F8BF7004EC9D9 /* PopulationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +113,11 @@
 		3D44141A2C6F7D8B004EC9D9 /* AirApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D4414702C6F8BB3004EC9D9 /* Views */,
+				3D44146F2C6F8BA3004EC9D9 /* ViewModels */,
+				3D44146E2C6F8B8F004EC9D9 /* Networking */,
+				3D44146D2C6F8B82004EC9D9 /* Models */,
 				3D44141B2C6F7D8B004EC9D9 /* AirAppApp.swift */,
-				3D44141D2C6F7D8B004EC9D9 /* ContentView.swift */,
 				3D44141F2C6F7D8D004EC9D9 /* Assets.xcassets */,
 				3D4414242C6F7D8D004EC9D9 /* Info.plist */,
 				3D4414212C6F7D8D004EC9D9 /* Preview Content */,
@@ -116,7 +137,10 @@
 			isa = PBXGroup;
 			children = (
 				3D44142D2C6F7D8E004EC9D9 /* AirAppTests.swift */,
+				3D4414582C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift */,
+				3D4414612C6F8AC5004EC9D9 /* PopulationViewModelTests.swift */,
 				3D44142F2C6F7D8E004EC9D9 /* Info.plist */,
+				3D4414672C6F8B37004EC9D9 /* MockNetworkManager.swift */,
 			);
 			path = AirAppTests;
 			sourceTree = "<group>";
@@ -128,6 +152,38 @@
 				3D44143A2C6F7D8E004EC9D9 /* Info.plist */,
 			);
 			path = AirAppUITests;
+			sourceTree = "<group>";
+		};
+		3D44146D2C6F8B82004EC9D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D4414522C6F8989004EC9D9 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D44146E2C6F8B8F004EC9D9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3D4414492C6F88B2004EC9D9 /* NetWorkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3D44146F2C6F8BA3004EC9D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D4414712C6F8BF7004EC9D9 /* PopulationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3D4414702C6F8BB3004EC9D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D44141D2C6F7D8B004EC9D9 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4414592C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift in Sources */,
+				3D44144A2C6F88B2004EC9D9 /* NetWorkManager.swift in Sources */,
+				3D4414722C6F8BF7004EC9D9 /* PopulationViewModel.swift in Sources */,
 				3D44141E2C6F7D8B004EC9D9 /* ContentView.swift in Sources */,
 				3D44141C2C6F7D8B004EC9D9 /* AirAppApp.swift in Sources */,
+				3D4414682C6F8B37004EC9D9 /* MockNetworkManager.swift in Sources */,
+				3D4414532C6F8989004EC9D9 /* Models.swift in Sources */,
+				3D4414622C6F8AC5004EC9D9 /* PopulationViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +330,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4414692C6F8B37004EC9D9 /* MockNetworkManager.swift in Sources */,
+				3D4414632C6F8AC5004EC9D9 /* PopulationViewModelTests.swift in Sources */,
+				3D44145A2C6F8A67004EC9D9 /* NetworkManagerTests.swift .swift in Sources */,
+				3D4414542C6F8989004EC9D9 /* Models.swift in Sources */,
+				3D44144B2C6F88B2004EC9D9 /* NetWorkManager.swift in Sources */,
+				3D4414732C6F8BF7004EC9D9 /* PopulationViewModel.swift in Sources */,
 				3D44142E2C6F7D8E004EC9D9 /* AirAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
